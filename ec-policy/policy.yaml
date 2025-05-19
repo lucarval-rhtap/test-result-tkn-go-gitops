@@ -10,6 +10,12 @@ sources:
           MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEBhp/bDYoE5farCRsMlvGgudOJ3rr
           b/E6UM54KxggOtXMIph4qacW3nFmYisc9K3D425XuNgfaTtiHowWdoin0Q==
           -----END PUBLIC KEY-----
+        # Provide default value so it's compatible with older versions of EC CLI.
+        certificate_identity: ""
+        certificate_identity_regexp: ""
+        certificate_oidc_issuer: ""
+        certificate_oidc_issuer_regexp: ""
+        rekor_url: ""
     config:
       include:
         - '@slsa3'
