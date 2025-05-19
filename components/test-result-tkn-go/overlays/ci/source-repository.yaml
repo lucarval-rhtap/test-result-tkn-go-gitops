@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: test-result-tkn-go-repository
+spec:
+  url: https://github.com/lucarval-rhtap/test-result-tkn-go
